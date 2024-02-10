@@ -39,5 +39,4 @@ WHERE m.committee_id IS NULL;
 SELECT m.name Name, c.committee_name AS
 'Committee Assignment'
 FROM members m
-CROSS JOIN committees c
-ON   m.committee_id = c.committee_id;
+CROSS JOIN committees c;
