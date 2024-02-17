@@ -31,7 +31,6 @@ VALUES
 	('Farmer in the Deli'),
 	('99cents Discount Store');
 
-
 DROP TABLE IF EXISTS
 	`products`;
 
